@@ -1,7 +1,4 @@
-require "uach/sega/version"
-
-module Uach
-  module Sega
-    # Your code goes here...
-  end
-end
+require 'uach/sega/version'
+require 'uach/sega/configuration'
+require 'uach/sega/api'
+require 'uach/sega/api/client'
