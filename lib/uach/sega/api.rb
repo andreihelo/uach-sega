@@ -1,4 +1,5 @@
 require 'uach/sega/module_inheritable_attributes'
+require 'net/http'
 
 module Uach
   module Sega
@@ -15,6 +16,15 @@ module Uach
           return default_options[:base_uri] unless uri
           default_options[:base_uri] = API.normalize_base_uri(uri)
         end
+      end
+
+      def get_response(url)
+        uri = URI(self.class.base_uri + url)
+        Net::HTTP.get_response(uri)
+      end
+
+      def parse_json(response)
+        JSON.parse(response.body, symbolize_names: Sega.configuration.symbolize_keys)
       end
 
       private
