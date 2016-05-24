@@ -1,4 +1,5 @@
 require 'uach/sega/version'
+require 'uach/sega/error'
 require 'uach/sega/configuration'
 require 'uach/sega/api'
 require 'uach/sega/api/client'

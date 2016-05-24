@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://services.uach.mx/paises
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - services.uach.mx
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Ua-Compatible:
+      - chrome=1
+      Content-Type:
+      - text/html; charset=utf-8
+      Etag:
+      - '"a6d6ecaecb1255d9d3d4147e04a5f3a7"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3cbf391a-9cff-4783-bc4f-604a8d9b6414
+      X-Runtime:
+      - '0.024000'
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 23 May 2016 19:07:59 GMT
+      Server:
+      - lighttpd/1.4.31
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siSWRQYWlzIjoxLCJQYWlzIjoiMDEiLCJEZXNjcmlwY2lvbiI6Ik3DiVhJ
+        Q08iLCJBY3Rpdm8iOnRydWV9LHsiSWRQYWlzIjoyLCJQYWlzIjoiMDIiLCJE
+        ZXNjcmlwY2lvbiI6IkVTVEFET1MgVU5JRE9TIiwiQWN0aXZvIjp0cnVlfSx7
+        IklkUGFpcyI6MTEsIlBhaXMiOiIwMyIsIkRlc2NyaXBjaW9uIjoiQ0FOQURB
+        IiwiQWN0aXZvIjp0cnVlfSx7IklkUGFpcyI6ODAsIlBhaXMiOiIwNCIsIkRl
+        c2NyaXBjaW9uIjoiQ1VCQSIsIkFjdGl2byI6dHJ1ZX0seyJJZFBhaXMiOjgx
+        LCJQYWlzIjoiMDUiLCJEZXNjcmlwY2lvbiI6IkVTUEHDkUEiLCJBY3Rpdm8i
+        OnRydWV9LHsiSWRQYWlzIjo4MiwiUGFpcyI6IjA2IiwiRGVzY3JpcGNpb24i
+        OiJJTkdMQVRFUlJBIiwiQWN0aXZvIjp0cnVlfSx7IklkUGFpcyI6ODMsIlBh
+        aXMiOiIwNyIsIkRlc2NyaXBjaW9uIjoiUEFJU0VTIERFIENFTlRSTyBBTcOJ
+        UklDQSIsIkFjdGl2byI6dHJ1ZX0seyJJZFBhaXMiOjg0LCJQYWlzIjoiMDgi
+        LCJEZXNjcmlwY2lvbiI6IlBBSVNFUyBERSBTVURBTcOJUklDQSIsIkFjdGl2
+        byI6dHJ1ZX0seyJJZFBhaXMiOjg1LCJQYWlzIjoiMDkiLCJEZXNjcmlwY2lv
+        biI6IlBBSVNFUyBERSBFVVJPUEEiLCJBY3Rpdm8iOnRydWV9LHsiSWRQYWlz
+        Ijo4NiwiUGFpcyI6IjEwIiwiRGVzY3JpcGNpb24iOiJQQUlTRVMgREUgQVNJ
+        QSIsIkFjdGl2byI6dHJ1ZX0seyJJZFBhaXMiOjg3LCJQYWlzIjoiMTEiLCJE
+        ZXNjcmlwY2lvbiI6IlBBSVNFUyBERSBPQ0VBTsONQSIsIkFjdGl2byI6dHJ1
+        ZX1dCgo=
+    http_version: 
+  recorded_at: Mon, 23 May 2016 19:07:59 GMT
+recorded_with: VCR 2.9.3
